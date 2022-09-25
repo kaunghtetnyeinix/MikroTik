@@ -19,7 +19,7 @@ echo "Ok, reboot" && \
 echo b > /proc/sysrq-trigger
 
 You have to change NIC name and Disk name!
-Check your server disk name using below commands.
+Check your server disk name and NIC name by using below commands.
 root@mikrotik:~# ip add
 root@mikrotik:~# lsblk
 
